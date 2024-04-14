@@ -1,0 +1,2 @@
+1 animate side scrollbar
+2 add hamburger menu
