@@ -261,11 +261,6 @@ html{
     align-items: center;
 }
 
-.contactMe{
-    height: 90vh;
-    width: 40%;
-    border: 1px solid red;
-}
 form{
     height: 90vh;
     width: 40%;
@@ -302,4 +297,64 @@ form button{
     color: white;
     font-size: 20px;
     border: none;
+}
+
+.contactMe{
+    height: 90vh;
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myContact p{
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+#Email{
+    margin: 30px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: 10px 10px 5px rgb(20, 20, 20);
+}
+
+#whatsApp{
+    margin: 30px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: 10px 10px 5px rgb(20, 20, 20);
+}
+
+.socialLinks{
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(20, 20, 20);
+    margin: 30px;
+}
+
+.socialLinks img{
+    margin: 30px;
+    border-radius:16px;
+    cursor: pointer;
+}
+
+#copyRight{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
