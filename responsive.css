@@ -1,0 +1,102 @@
+@media only screen and (max-width: 813px){
+
+    #home{
+        height: 165vh;
+    }
+
+    .navbar{
+        display: none;
+        background-color: white;
+    }
+
+    .head{
+        display: flex;
+        justify-content: center;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 50px;
+        height: 100vh;
+    }
+
+    .homeText{
+        background-color: black;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+} 
+
+@media only screen and (max-width: 588px){
+    .aboutText p{
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (max-width: 422px){
+    .homeText a{
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 588px){
+    #about{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .aboutText{
+        height: 100vh;
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 394px){
+    .body{
+        margin-top: 130px;
+    }
+}
+
+@media only screen and (max-width: 813px){
+    #skills{
+        height: 150vh;
+    }
+}
+
+@media only screen and (max-width: 428px){
+    #skills{
+        height: 300vh;
+    }
+}
+
+@media only screen and (max-width: 1083px){
+    #projects{
+        height: 260vh;
+    }
+}
+
+@media only screen and (max-width: 722px){
+    #projects{
+        height: 400vh;
+    }
+}
+
+@media only screen and (max-width: 811px){
+    #contact{
+        display: flex;
+        flex-direction: column;
+        height: 230vh;
+    }
+
+    form{
+        width: 90%;
+    }
+}
