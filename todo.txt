@@ -1,6 +1,0 @@
-1 animate side scrollbar
-2 add hamburger menu
-3 make responsive
-4 update image of weather report website
-5 add links of projects
-6 add portfolio git link
